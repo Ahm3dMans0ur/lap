@@ -1,0 +1,7 @@
+$FIELDS$
+
+<hr class="xxs-mt-80 xxs-mb-40" />
+<div class="form-group form-submit xxs-pl-40 xxs-pb-20 text-left">
+  {!! Form::submit('Save', ['class' => 'btn btn-primary border-radius-sm xxs-p-10 xxs-pr-30 xxs-pl-30 xxs-ml-10']) !!}
+  <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-gray border-radius-sm xxs-p-10 xxs-pr-30 xxs-pl-30">@lang("Cancel")</a>
+</div>

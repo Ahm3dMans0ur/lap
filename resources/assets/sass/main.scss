@@ -1,0 +1,16 @@
+/*!
+ * Shari Platform: Styling Sheet
+ *
+ * @author  Mohamed Gamil [gemy.me]
+ */
+
+$icon-font-path : '../frontend/fonts/';
+$images-path    : '../frontend/images/';
+
+@import "_config";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "_fonts";
+@import "_functions";
+@import "components/_autoload";
+@import "_animations";
+@import "_responsive";
